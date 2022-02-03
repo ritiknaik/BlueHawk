@@ -1,0 +1,353 @@
+
+
+GET /files/new2.jpeg HTTP/1.1
+Accept: image/jpeg
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 8364
+
+
+HEAD /files/new2.jpeg HTTP/1.1
+Accept: image/jpeg
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 8364
+
+
+PUT /files/new.txt HTTP/1.1
+Accept: text/plain
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 8364
+
+
+DELETE /files/new4.txt HTTP/1.1
+Accept: text/plain
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 8364
+
+
+POST /files/new5.txt HTTP/1.1
+Accept: text/plain
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 8364
+
+
+GET /index.html
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate
+Accept: text/html
+Connection: keep-alive
+Range: bytes=0-100
+Content-Type: multipart/form-data; boundary=57c1d3ce30bee4d123a334e78dd8cd24
+
+
+GET /files/new1.jpeg HTTP/1.1
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate
+Accept: image/jpeg
+Connection: keep-alive
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+
+
+GET /files/new1.jpeg HTTP/1.1
+Accept: text/html
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+GET /files/ne.jpeg HTTP/1.1
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/new1.jpeg HTTP/1.1
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Modified-Since: Sat, 13 Nov 2021 01:02:49 GMT
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Unmodified-Since: Sat, 13 Nov 2021 01:02:49 GMT
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Unmodified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Match: 1636703093.7378364
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Match: 163673093.7378344
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+DELETE /files/new1.txt HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+POST /files/new1.txt HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 0
+
+
+POST /files/try/new1.txt HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 165
+
+
+POST /files/try/new2 HTTP/1.1
+Content-Type: text/html
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 165
+
+
+PUT /files/try/new2 HTTP/1.1
+Content-Type: text/html
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 165
+
+
+PUT /files/new1.txt HTTP/1.1
+Content-Type: text/html
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 165
+
+
+DELETE /files/n.txt HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+DELETE /files/py3.png HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+PUT /files/py3.png HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+OPTIONS /files/py3.png HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+PATCH /files/py3.png HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 0
+
+
+COPY /files/py3.png HTTP/1.1
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 0
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=1100-1200
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=0-100
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=-150
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+Accept: */*
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+Accept-Encoding: gzip
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+Accept-Encoding: deflate
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+Accept-Encoding: compress
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.txt HTTP/1.1
+Range: bytes=100-1200
+If-Match: 1636780521.6816938162
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.jpeg HTTP/1.1
+If-Match: 1636780656.51297338364
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/new1.jpeg HTTP/1.1
+Range: bytes=0-100, 100-
+If-Match: 1636780656.51297338364
+Accept: */*
+Host: 127.0.0.1:8000
+
+
+GET /files/lena.jpeg HTTP/1.1
+If-Unmodified-Since: Sat, 13 Nov 2021 01:02:49 GMT
+If-Match: 1636703093.7378364
+Accept-Encoding: deflate, gzip
+Accept: */*
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+GET /files/lena.jpeg HTTP/1.1
+Accept: text/plain
+Accept-Encoding: deflate, gzip
+Host: 127.0.0.1:8000
+Connection: keep-alive
+Content-Length: 104508
+
+
+GET /files/lena.jpeg HTTP/1.1
+Accept: text/plain,image/jpeg
+Accept-Encoding: deflate, gzip
+Host: 127.0.0.1:8000
+Connection: keep-alive
+Content-Length: 104508
+
+
+GET /files/lena.jpeg HTTP/1.1
+Accept: text/plain,image/jpeg,application/json
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept-Encoding: deflate, gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+HEAD /files/lena.jpeg HTTP/1.1
+Accept: text/plain,image/jpeg,application/json
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept-Encoding: deflate, gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+HEAD /files/py3.png HTTP/1.1
+Accept: text/plain,image/jpeg,application/json
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept-Encoding: deflate, gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+HEAD /files/py3.png HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Accept-Encoding: gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+HEAD /files/py3.png HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Range: bytes=0-100, 100-
+Accept-Encoding: gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+HEAD /files/new1.txt HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Range: bytes=0-100, 100-
+Accept-Encoding: gzip
+Host: 127.0.0.1:8000
+Content-Length: 104508
+
+
+POST /files/new2.jpeg HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Host: 127.0.0.1:8000
+Content-Length: 8364
+
+
+PUT /files/new3.txt HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Host: 127.0.0.1:8000
+Content-Length: 165
+
+
+DELETE /files/new3.txt HTTP/1.1
+Accept: text/plain,image/jpeg,application/json,*/*
+If-Modified-Since: Sat, 06 Nov 2021 01:02:49 GMT
+Host: 127.0.0.1:8000
+
+

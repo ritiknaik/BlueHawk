@@ -1,0 +1,100 @@
+0-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8458', 'Content-Type': 'image/jpeg', 'Accept-Ranges': 'bytes', 'ETag': '1643876592.24216158510', 'Set-Cookie': 'mycookie=6271666'}
+1-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8458', 'Content-Type': 'image/jpeg', 'Accept-Ranges': 'bytes'}
+2-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '20', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+3-- Expected: 200 Received: 404 Reason: Not Found
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '22', 'Accept-Ranges': 'bytes'}
+4-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '21', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+5-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '45', 'Content-Type': 'text/html', 'Content-Range': '0-25/26 ', 'Accept-Ranges': 'bytes', 'ETag': '1634727008.73062126', 'Set-Cookie': 'mycookie=2747526'}
+6-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8344', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Sat, 13 Nov 2021 05:17:36 GMT', 'Accept-Ranges': 'bytes', 'ETag': '1636780656.5129738364', 'Set-Cookie': 'mycookie=5406101'}
+7-- Expected: 406 Received: 406
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '27', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+8-- Expected: 404 Received: 404
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:01 GMT', 'Server': 'BlueHawk/1.0.1', 'Accept-Ranges': 'bytes'}
+9-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8344', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Sat, 13 Nov 2021 05:17:36 GMT', 'Accept-Ranges': 'bytes', 'ETag': '1636780656.5129738364', 'Set-Cookie': 'mycookie=1184066'}
+10-- Expected: 304 Received: 304
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '25', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+11-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8344', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Fri, 12 Nov 2021 07:44:53 GMT', 'Accept-Ranges': 'bytes', 'ETag': '1636703093.7378364', 'Set-Cookie': 'mycookie=4971388'}
+12-- Expected: 412 Received: 412
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '32', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+13-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '8344', 'Content-Type': 'image/jpeg', 'Accept-Ranges': 'bytes', 'ETag': '1636703093.7378364', 'Set-Cookie': 'mycookie=6973794'}
+14-- Expected: 412 Received: 412
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '32', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+15-- Expected: 403 Received: 403
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '22', 'Accept-Ranges': 'bytes'}
+16-- Expected: 405 Received: 405
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Length': '31', 'Content-Type': 'multipart/form-data; boundary=d9fb00349756409af977ac9f5c679b6f', 'Accept-Ranges': 'bytes'}
+17-- Expected: 201 Received: 200 Reason: OK
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '21', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+18-- Expected: 201 Received: 201
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Length': '20', 'Content-Location': '/home/ritik/Desktop/TY files/Sem 5/CN/BlueHawk/files/try/new2/index.html', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+19-- Expected: 400 Received: 400
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '24', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+20-- Expected: 405 Received: 405
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '31', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+21-- Expected: 404 Received: 404
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '22', 'Accept-Ranges': 'bytes'}
+22-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '23', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+23-- Expected: 201 Received: 201
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Length': '20', 'Content-Type': 'multipart/form-data; boundary=10f7607d9889bfbb075f7c02db11eca9', 'Accept-Ranges': 'bytes'}
+24-- Expected: 501 Received: 501
+{'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1'}
+25-- Expected: 501 Received: 501
+{'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1'}
+26-- Expected: 501 Received: 501
+{'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1'}
+27-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '56', 'Content-Type': 'text/plain', 'Content-Range': '100-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=3188930'}
+28-- Expected: 416 Received: 416
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '44', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+29-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '95', 'Content-Type': 'text/plain', 'Content-Range': '0-100/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=8029422'}
+30-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '109', 'Content-Type': 'text/plain', 'Content-Range': '12-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=7342231'}
+31-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '56', 'Content-Type': 'text/plain', 'Content-Range': '100-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=6811253'}
+32-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '56', 'Content-Type': 'text/plain', 'Content-Range': '100-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=3818928'}
+33-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'deflate', 'Content-Length': '44', 'Content-Type': 'text/plain', 'Content-Range': '100-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=5970812'}
+34-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'identity', 'Content-Length': '62', 'Content-Type': 'text/plain', 'Content-Range': '100-161/162 ', 'Accept-Ranges': 'bytes', 'ETag': '1636780521.681693162', 'Set-Cookie': 'mycookie=3581297'}
+35-- Expected: 200 Received: 412 Reason: Precondition Failed
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '32', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+36-- Expected: 200 Received: 412 Reason: Precondition Failed
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '32', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+37-- Expected: 200 Received: 412 Reason: Precondition Failed
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '32', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+38-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'deflate', 'Content-Length': '8332', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Fri, 12 Nov 2021 07:44:53 GMT', 'Accept-Ranges': 'bytes', 'ETag': '1636703093.7378364', 'Set-Cookie': 'mycookie=6367645'}
+39-- Expected: 406 Received: 406
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '27', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+40-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'deflate', 'Content-Length': '8332', 'Content-Type': 'image/jpeg', 'Accept-Ranges': 'bytes', 'ETag': '1636703093.7378364', 'Set-Cookie': 'mycookie=9615090'}
+41-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'deflate', 'Content-Length': '8332', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Fri, 12 Nov 2021 07:44:53 GMT', 'Accept-Ranges': 'bytes', 'ETag': '1636703093.7378364', 'Set-Cookie': 'mycookie=8287910'}
+42-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'deflate', 'Content-Length': '8332', 'Content-Type': 'image/jpeg', 'Last-Modified': 'Fri, 12 Nov 2021 07:44:53 GMT', 'Accept-Ranges': 'bytes'}
+43-- Expected: 406 Received: 406
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '27', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+44-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '59929', 'Content-Type': 'image/png', 'Last-Modified': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Accept-Ranges': 'bytes'}
+45-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Encoding': 'gzip', 'Content-Length': '59929', 'Content-Type': 'image/png', 'Content-Range': '0-100/65482 100-65481/65482 ', 'Last-Modified': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Accept-Ranges': 'bytes'}
+46-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD', 'Content-Encoding': 'gzip', 'Content-Length': '109', 'Content-Type': 'text/plain', 'Content-Range': '0-100/162 100-161/162 ', 'Last-Modified': 'Sat, 13 Nov 2021 05:15:21 GMT', 'Accept-Ranges': 'bytes'}
+47-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '21', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
+48-- Expected: 201 Received: 201
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Allow': 'GET, HEAD, POST, PUT, DELETE', 'Content-Length': '20', 'Content-Type': 'multipart/form-data; boundary=c382a6a64b2792cae492b2abb6ec2fcd', 'Accept-Ranges': 'bytes'}
+49-- Expected: 200 Received: 200
+{'Connection': 'keep-alive', 'Date': 'Thu, 03 Feb 2022 10:44:11 GMT', 'Server': 'BlueHawk/1.0.1', 'Content-Length': '23', 'Content-Type': 'text/html', 'Accept-Ranges': 'bytes'}
