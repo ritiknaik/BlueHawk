@@ -2,8 +2,7 @@
  <img width=250px height=250px src="resources/logos/BlueHawk logo.png" alt="Server logo"></a>
 </p>
 
-<h2 align="center">BlueHawk 1.0</h3>
-
+<h2 align="center">BlueHawk 1.0 HTTP Server</h3>
 
 ---
 
